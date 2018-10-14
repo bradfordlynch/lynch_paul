@@ -10,7 +10,7 @@ docker run \
 ```
 
 # Load data into Neo4j
-**N.B.** The data files are stored in the location specified in the docker invocation above. Additionally, the nodes and relationships have been preprocessed.
+**N.B.** The data files are stored in the location specified in the docker invocation above. Additionally, the nodes and relationships have been preprocessed according to the notebook *Preprocessing of Revere Data.ipynb*.
 
 ## Load the nodes
 ```cypher
